@@ -1,4 +1,5 @@
 from datetime import datetime
+
 birthdate_date = input('Write the birthdate: ')
 birthdate_date = datetime.strptime(birthdate_date, '%Y-%m-%d')
 date_now = datetime.strptime(str(datetime.now().date()), '%Y-%m-%d')
